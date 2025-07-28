@@ -1,6 +1,7 @@
 # Talent Management System
 
 Deployed app https://talent-management-system-seven.vercel.app
+
 A production-ready React + TypeScript Applicant Tracking System (ATS) built with Vite, featuring a modern UI with Tailwind CSS and comprehensive candidate and company management.
 
 ## Features
