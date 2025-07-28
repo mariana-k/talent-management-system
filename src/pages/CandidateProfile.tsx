@@ -63,7 +63,7 @@ export const CandidateProfile = () => {
             <div className="flex items-center space-x-6 text-sm text-gray-600">
               <span>{candidate.experience} years of experience</span>
               <span>•</span>
-              <span>Member since {formatDate(candidate.createdAt)}</span>
+              <span>Added {formatDate(candidate.createdAt)}</span>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@ export const CandidateProfile = () => {
                 <p className="text-gray-900">{candidate.experience} years</p>
               </div>
               <div>
-                <span className="text-gray-500">Member since:</span>
+                <span className="text-gray-500">Added:</span>
                 <p className="text-gray-900">{formatDate(candidate.createdAt)}</p>
               </div>
               <div>
